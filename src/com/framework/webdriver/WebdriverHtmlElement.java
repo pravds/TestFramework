@@ -4,7 +4,6 @@ import com.framework.HtmlElement;
 import com.framework.NonExistentElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.htmlunit.HtmlUnitWebElement;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.ArrayList;
@@ -18,8 +17,8 @@ public class WebdriverHtmlElement implements HtmlElement {
         this.element = element;
     }
 
-    private HtmlUnitWebElement RenderedRootElement() {
-        return (HtmlUnitWebElement) element;
+    private WebElement RenderedRootElement() {
+        return element;
     }
 
     public boolean visible() {

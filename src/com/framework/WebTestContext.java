@@ -1,6 +1,5 @@
 package com.framework;
 
-import java.lang.reflect.ParameterizedType;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,10 +16,12 @@ public abstract class WebTestContext implements TestContext {
     }
 
 
-    protected <T extends HtmlPage> T launch(EntryPoint<T> content) {
+    /*protected <T extends HtmlPage> T launch(EntryPoint<T> content) {
         browser.goTo(content.relativeUrl());
-        return on(content.getClass());
-    }
+        Class<? extends EntryPoint> aClass = content.getClass();
+        T on = on(aClass);
+        return on;
+    }*/
 
     public void onScenarioFailed(ScenarioFailure failure) {
         print("[Failed]", failure);
@@ -31,13 +32,13 @@ public abstract class WebTestContext implements TestContext {
         System.out.println(failure.getDescription());
     }
 
-    protected <T extends HtmlPage> T on(Class type) {
+    protected <T extends HtmlPage> T on(Class<T> clazz) {
         try {
-            Class clazz = (Class) ((ParameterizedType) this.getClass().getGenericSuperclass()).getActualTypeArguments()[0];
             String key = clazz.getSimpleName();
-            if (!pagesCache.containsKey(type)) {
+            if (!pagesCache.containsKey(key)) {
 
-                HtmlPage page = (HtmlPage) clazz.newInstance();
+                HtmlPage page = clazz.newInstance();
+                page.setBrowser(browser);
                 pagesCache.put(key, page);
             }
 

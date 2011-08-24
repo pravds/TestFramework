@@ -15,7 +15,7 @@ public abstract class BehaviourDrivenTest<TTestContext extends TestContext> {
         }
     }
 
-    protected TTestContext getContext() {
+    protected TTestContext i() {
         return Context;
     }
 

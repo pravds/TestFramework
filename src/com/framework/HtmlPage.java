@@ -4,11 +4,12 @@ public class HtmlPage extends HtmlModel {
 
     private Browser browser;
 
-    public HtmlPage OnBrowser(Browser browser) {
+    public HtmlPage setBrowser(Browser browser) {
         this.browser = browser;
         return this;
     }
 
+    @Override
     protected HtmlElement rootElement() {
         return browser.getElement("html");
     }
