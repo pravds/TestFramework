@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca4961aa-ab17-4199-b941-f50cf49c4d41" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestFramework.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/BehaviourDrivenTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/Browser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/BrowserFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/EntryPoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/HtmlElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/HtmlFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/HtmlModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/HtmlPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/NonExistentElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/ScenarioFailure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/TestContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/WebTestContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/webdriver/WebdriverBrowser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/framework/webdriver/WebdriverHtmlElement.java" />
-    </list>
+    <list default="true" id="ca4961aa-ab17-4199-b941-f50cf49c4d41" name="Default" comment="" />
     <ignored path="TestFramework.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
