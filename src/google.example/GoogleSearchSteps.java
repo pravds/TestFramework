@@ -1,12 +1,11 @@
-package example;
+package google.example;
 
 import org.junit.Assert;
 
-public class SampleSteps extends BaseContext{
+public class GoogleSearchSteps extends BaseGoogleTestContext {
 
     public void amOnGoogleLandingPage() {
-        browser.goTo("");
-        GoogleHomePage googleHomePage = on(GoogleHomePage.class);
+        GoogleHomePage googleHomePage = goToHomePage();
         Assert.assertTrue(googleHomePage.searchBarVisible());
     }
 
@@ -18,4 +17,5 @@ public class SampleSteps extends BaseContext{
     public void seeSearchResults() {
         Assert.assertTrue(on(GoogleSearchResultsPage.class).searchResultsVisible());
     }
+
 }

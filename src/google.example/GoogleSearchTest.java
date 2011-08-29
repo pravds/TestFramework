@@ -1,9 +1,9 @@
-package example;
+package google.example;
 
 import com.framework.Action;
 import org.junit.Test;
 
-public class SampleTest extends  WebTest<SampleSteps>{
+public class GoogleSearchTest extends BaseGoogleSearchWebTest<GoogleSearchSteps> {
 
     @Test
     public void testGoogle(){
@@ -21,4 +21,5 @@ public class SampleTest extends  WebTest<SampleSteps>{
             }
         });
     }
+
 }

@@ -1,4 +1,4 @@
-package example;
+package google.example;
 
 import com.framework.HtmlPage;
 

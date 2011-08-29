@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca4961aa-ab17-4199-b941-f50cf49c4d41" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example/BaseContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example/GoogleHomePage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example/GoogleSearchResultsPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example/SampleSteps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example/SampleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example/WebTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/google.example/BaseGoogleSearchWebTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/google.example/BaseGoogleTestContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/google.example/GoogleEntryPoint.java" />
+      <change type="DELETED" beforePath="F:\MyProjects\git-code\TestFramework\src\com\framework\TestContext.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyProjects\git-code\TestFramework\src\example\BaseContext.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyProjects\git-code\TestFramework\src\example\WebTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestFramework.iws" afterPath="$PROJECT_DIR$/TestFramework.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/framework/BehaviourDrivenTest.java" afterPath="$PROJECT_DIR$/src/com/framework/BehaviourDrivenTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/framework/HtmlPage.java" afterPath="$PROJECT_DIR$/src/com/framework/HtmlPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/framework/NonExistentElement.java" afterPath="$PROJECT_DIR$/src/com/framework/NonExistentElement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/framework/WebTestContext.java" afterPath="$PROJECT_DIR$/src/com/framework/WebTestContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/framework/webdriver/WebdriverHtmlElement.java" afterPath="$PROJECT_DIR$/src/com/framework/webdriver/WebdriverHtmlElement.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\git-code\TestFramework\src\example\GoogleHomePage.java" afterPath="$PROJECT_DIR$/src/google.example/GoogleHomePage.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\git-code\TestFramework\src\example\GoogleSearchResultsPage.java" afterPath="$PROJECT_DIR$/src/google.example/GoogleSearchResultsPage.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\git-code\TestFramework\src\example\SampleSteps.java" afterPath="$PROJECT_DIR$/src/google.example/GoogleSearchSteps.java" />
+      <change type="MOVED" beforePath="F:\MyProjects\git-code\TestFramework\src\example\SampleTest.java" afterPath="$PROJECT_DIR$/src/google.example/GoogleSearchTest.java" />
     </list>
     <ignored path="TestFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,102 +73,7 @@
     <favorites_list name="TestFramework" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="HtmlModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/framework/HtmlModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HtmlPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/framework/HtmlPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BehaviourDrivenTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/framework/BehaviourDrivenTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebdriverHtmlElement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/framework/webdriver/WebdriverHtmlElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="83" selection-start="613" selection-end="681" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HtmlUnitWebElement.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/selenium-server-standalone-2.3.0.jar!/org/openqa/selenium/htmlunit/HtmlUnitWebElement.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="374" selection-start="527" selection-end="527" vertical-scroll-proportion="-3.4">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebdriverBrowser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/framework/webdriver/WebdriverBrowser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SampleTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/example/SampleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="12" selection-start="265" selection-end="265" vertical-scroll-proportion="0.329806">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleHomePage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/GoogleHomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SampleSteps.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/SampleSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="82" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleSearchResultsPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/GoogleSearchResultsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -179,22 +87,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/framework/webdriver/WebdriverBrowser.java" />
-        <option value="$PROJECT_DIR$/src/com/framework/BrowserFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/framework/EntryPoint.java" />
-        <option value="$PROJECT_DIR$/src/com/framework/ScenarioFailure.java" />
-        <option value="$PROJECT_DIR$/src/com/framework/Action.java" />
-        <option value="$PROJECT_DIR$/src/com/framework/TestContext.java" />
+        <option value="$PROJECT_DIR$/src/google.example/GoogleEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/google.example/GoogleHomePage.java" />
+        <option value="$PROJECT_DIR$/src/google.example/GoogleSearchResultsPage.java" />
+        <option value="$PROJECT_DIR$/src/google.example/WebTest.java" />
+        <option value="$PROJECT_DIR$/src/google.example/SampleTest.java" />
+        <option value="$PROJECT_DIR$/src/google.example/SampleSteps.java" />
+        <option value="$PROJECT_DIR$/src/google.example/GoogleSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/google.example/GoogleSearchWebTest.java" />
         <option value="$PROJECT_DIR$/src/com/framework/BehaviourDrivenTest.java" />
-        <option value="$PROJECT_DIR$/src/example/BaseContext.java" />
-        <option value="$PROJECT_DIR$/src/example/SampleTest.java" />
-        <option value="$PROJECT_DIR$/src/example/WebTest.java" />
-        <option value="$PROJECT_DIR$/src/com/framework/HtmlPage.java" />
+        <option value="$PROJECT_DIR$/src/com/framework/TestContext.java" />
+        <option value="$PROJECT_DIR$/src/google.example/BaseContext.java" />
         <option value="$PROJECT_DIR$/src/com/framework/WebTestContext.java" />
-        <option value="$PROJECT_DIR$/src/com/framework/webdriver/WebdriverHtmlElement.java" />
-        <option value="$PROJECT_DIR$/src/example/GoogleHomePage.java" />
-        <option value="$PROJECT_DIR$/src/example/GoogleSearchResultsPage.java" />
-        <option value="$PROJECT_DIR$/src/example/SampleSteps.java" />
+        <option value="$PROJECT_DIR$/src/google.example/GoogleTestBaseContext.java" />
+        <option value="$PROJECT_DIR$/src/google.example/BaseGoogleSearchWebTest.java" />
+        <option value="$PROJECT_DIR$/src/google.example/BaseGoogleTestContext.java" />
+        <option value="$PROJECT_DIR$/src/google.example/GoogleSearchSteps.java" />
       </list>
     </option>
   </component>
@@ -231,7 +139,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -269,10 +176,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -294,6 +197,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,7 +224,33 @@
       <recent name="com.framework" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SampleTest.testGoogle">
+  <component name="RunManager">
+    <configuration default="false" name="GoogleSearchTest.newTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TestFramework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="google.example" />
+      <option name="MAIN_CLASS_NAME" value="google.example.GoogleSearchTest" />
+      <option name="METHOD_NAME" value="newTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50892" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -427,12 +357,12 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="SampleTest.testGoogle" type="JUnit" factoryName="JUnit">
+    <configuration default="false" name="GoogleSearchTest.testGoogle" type="JUnit" factoryName="JUnit">
       <module name="TestFramework" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="example" />
-      <option name="MAIN_CLASS_NAME" value="example.SampleTest" />
+      <option name="PACKAGE_NAME" value="google.example" />
+      <option name="MAIN_CLASS_NAME" value="google.example.GoogleSearchTest" />
       <option name="METHOD_NAME" value="testGoogle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -455,8 +385,9 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SampleTest.testGoogle" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GoogleSearchTest.newTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GoogleSearchTest.testGoogle" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -495,20 +426,20 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978212" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329582" sideWeight="0.67102396" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329582" sideWeight="0.67102396" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978212" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -560,122 +491,84 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/framework/TestContext.java">
+    <entry file="file://$PROJECT_DIR$/src/com/framework/NonExistentElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="21" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/selenium-server-standalone-2.3.0.jar!/org/junit/runners/model/FrameworkMethod.class">
+    <entry file="file://$PROJECT_DIR$/src/google.example/GoogleHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/framework/Browser.java">
+    <entry file="file://$PROJECT_DIR$/src/google.example/GoogleSearchResultsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/WebTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/framework/BrowserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/framework/WebTestContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="27" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/framework/BehaviourDrivenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/selenium-server-standalone-2.3.0.jar!/org/openqa/selenium/htmlunit/HtmlUnitWebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="374" selection-start="527" selection-end="527" vertical-scroll-proportion="-3.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/framework/webdriver/WebdriverHtmlElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="83" selection-start="613" selection-end="681" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/framework/HtmlPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/framework/webdriver/WebdriverBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="38" column="0" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/GoogleHomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/framework/webdriver/WebdriverHtmlElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/framework/HtmlModel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/framework/Browser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="17" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/GoogleSearchResultsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/framework/BrowserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="13" selection-start="87" selection-end="87" vertical-scroll-proportion="0.07649044" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/SampleSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/com/framework/EntryPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="82" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.03824522" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/SampleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/google.example/GoogleEntryPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="265" selection-end="265" vertical-scroll-proportion="0.329806">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="4" column="21" selection-start="80" selection-end="80" vertical-scroll-proportion="0.07649044" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/framework/BehaviourDrivenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="77" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/google.example/BaseGoogleSearchWebTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="59" selection-start="213" selection-end="213" vertical-scroll-proportion="0.13385826" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/google.example/BaseGoogleTestContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="15" selection-start="272" selection-end="272" vertical-scroll-proportion="0.22947131" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/google.example/GoogleSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="369" selection-end="369" vertical-scroll-proportion="0.22947131" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/google.example/GoogleSearchSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/framework/WebTestContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="8" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/framework/ScenarioFailure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.03824522" />
       </provider>
     </entry>
   </component>

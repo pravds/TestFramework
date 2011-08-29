@@ -2,21 +2,21 @@ package com.framework;
 
 import java.lang.reflect.ParameterizedType;
 
-public abstract class BehaviourDrivenTest<TTestContext extends TestContext> {
+public abstract class BehaviourDrivenTest<TTestContext extends WebTestContext> {
 
-    protected TTestContext Context;
+    protected TTestContext context;
 
     protected BehaviourDrivenTest() {
         try {
             Object o = ((Class) ((ParameterizedType) this.getClass().getGenericSuperclass()).getActualTypeArguments()[0]).newInstance();
-            Context = (TTestContext) o;
+            context = (TTestContext) o;
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }
 
     protected TTestContext i() {
-        return Context;
+        return context;
     }
 
     protected void scenario(String description, Action action) {
@@ -24,7 +24,7 @@ public abstract class BehaviourDrivenTest<TTestContext extends TestContext> {
             action.execute();
         } catch (Exception ex) {
             ScenarioFailure failure = new ScenarioFailure(description, 1, ex);
-            Context.onScenarioFailed(failure);
+            context.onScenarioFailed(failure);
             throw new RuntimeException(ex);
         }
     }

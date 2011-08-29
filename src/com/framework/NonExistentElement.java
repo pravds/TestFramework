@@ -10,7 +10,7 @@ public class NonExistentElement implements HtmlElement {
     }
 
     public boolean visible() {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        return false;
     }
 
     public String text() {
